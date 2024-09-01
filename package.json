@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "a practice video for backend code",
   "main": "index.js",
+  "type":"module",
   "scripts": {
+    "dev":"nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -11,5 +13,9 @@
     "Node"
   ],
   "author": "Harikrishna Gohil",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.3"
+  }
 }
